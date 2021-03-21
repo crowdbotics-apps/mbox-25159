@@ -46,9 +46,9 @@ urlpatterns = [
     path("wallet/", include("wallet.urls")),
 ]
 
-admin.site.site_header = "mbox"
-admin.site.site_title = "mbox Admin Portal"
-admin.site.index_title = "mbox Admin"
+admin.site.site_header = "mbox1"
+admin.site.site_title = "mbox1 Admin Portal"
+admin.site.index_title = "mbox1 Admin"
 
 # swagger
 api_info = openapi.Info(
